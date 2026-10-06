@@ -1,0 +1,8 @@
+{
+  "name": "fitcampus-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "node node_modules/next/dist/bin/next dev --webpack", "build": "node node_modules/next/dist/bin/next build", "start": "node node_modules/next/dist/bin/next start", "typecheck": "node node_modules/typescript/bin/tsc --noEmit" },
+  "dependencies": { "@mediapipe/tasks-vision": "^0.10.32", "next": "15.2.4", "react": "19.0.0", "react-dom": "19.0.0" },
+  "devDependencies": { "typescript": "^5.7.3", "@types/node": "^22.13.10", "@types/react": "^19.0.10", "@types/react-dom": "^19.0.4" }
+}
